@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int func(int a, int b){
+int sum_func(int a, int b){
     return a + b;
+}
+
+int abstract_func(int a, int b){
+    return a - b;
 }
 
 int main(){
@@ -11,6 +15,7 @@ int main(){
     cin >> a;
     cout << "Nhap b: ";
     cin >> b;
-    cout << "a + b = " << func(a, b);
+    cout << "a + b = " << sum_funcfunc(a, b);
+    cout << "a - b = " << abstract_func(a, b);
     return 0;
 }
