@@ -15,7 +15,7 @@ int main(){
     cin >> a;
     cout << "Nhap b: ";
     cin >> b;
-    cout << "a + b = " << sum_funcfunc(a, b);
+    cout << "a + b = " << sum_func(a, b);
     cout << "a - b = " << abstract_func(a, b);
     return 0;
 }
